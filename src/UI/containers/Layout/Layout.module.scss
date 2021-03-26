@@ -1,32 +1,5 @@
 .container {
-	height: 100%;
+	//padding: 8%;
+	background-color: white;
 }
 
-.footer {
-	position: absolute;
-	bottom:30px;
-	padding-top: 50px;
-	left: 0;
-	width:100%;
-	
-	display: none;
-	flex-direction: column;
-	align-items: center;
-
-	.links {
-		margin-top: 30px;
-		font-size: 14px;
-		text-transform: uppercase;
-		font-weight: 700;
-
-		a {
-			color: #000;
-			margin: 0 8px;
-		}
-	}
-
-	.downloadLinks {
-		display: flex;
-		margin-top: 30px;
-	}
-}
