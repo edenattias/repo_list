@@ -73,7 +73,7 @@ const RepositoriesTable = () => {
             title: Translation.columns.title.title,
             dataIndex: Translation.columns.title.key,
             key: Translation.columns.title.key,
-            sorter: (a, b) => a.title.length - b.title.length,
+            sorter: (a, b) => a.title.localeCompare(b.title),
             sortOrder: sort.columnKey === Translation.columns.title.key && sort.order,
             width: 370,
             responsive: [Responsive.EXTRA_SMALL, Responsive.SMALL_MEDIUM, Responsive.MEDIUM,Responsive.LARGE],
